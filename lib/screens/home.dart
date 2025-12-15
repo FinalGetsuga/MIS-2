@@ -78,6 +78,15 @@ class _MyHomePageState extends State<MyHomePage> {
             tooltip: "Get Random Meal",
             onPressed: getRandomMeal,
           ),
+
+          // Favorites button
+          IconButton(
+            icon: const Icon(Icons.favorite),
+            tooltip: "Favorites",
+            onPressed: () {
+              Navigator.pushNamed(context, "/favorites");
+            },
+          ),
         ],
       ),
       body: FutureBuilder<List<Categoryy>>(

@@ -13,7 +13,7 @@ class MealGrid extends StatelessWidget {
       itemCount: meals.length,
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
-        childAspectRatio: 0.78,
+        childAspectRatio: 0.70,
         crossAxisSpacing: 10,
         mainAxisSpacing: 10,
       ),
